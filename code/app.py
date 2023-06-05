@@ -10,7 +10,7 @@ st.title('先端課題039 streamlit')
 st.write('グラフの表示')
 # Please write your code!!
 
-df = pd.read_csv("../data/data.csv")
+df = pd.read_csv("/workspaces/task_39/data/data.csv")
 st.write(df)
 
 
